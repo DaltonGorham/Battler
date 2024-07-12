@@ -2,7 +2,6 @@
 #define Attribute_H
 using namespace std;
 #include "../Die/die.h"
-#include <vector>
 
 
 class Attribute{
@@ -12,6 +11,8 @@ class Attribute{
     int currentScore;
   public:
     Attribute();
+    Attribute(string n);
+    Attribute(string n, int value);
     string getName()const;
     int getScore()const;
     int getModifier()const;

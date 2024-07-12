@@ -10,6 +10,7 @@ class Die{
     const int SIDES;
   public:
     Die();
+    Die(int SIDES);
     int getFaceValue()const;
     int getSides()const;
     string printDie()const;

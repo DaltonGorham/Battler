@@ -15,7 +15,16 @@ int main(){
 srand(time(0));
 Attribute attribute;
 
-cout << attribute.getScore();
+cout << "Curret Score: " << attribute.getScore() << endl;
+
+
+Die die(7);
+cout << die.printDie();
+
+
+
+
+
 
 
   return 0;

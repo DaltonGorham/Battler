@@ -9,6 +9,11 @@ SIDES(6)
   roll();
 }
 
+Die::Die(int sides) :
+SIDES(sides){
+  roll();
+}
+
 int Die::getSides()const{
   return SIDES;
 }

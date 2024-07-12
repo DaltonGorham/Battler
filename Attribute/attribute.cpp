@@ -12,7 +12,9 @@ Attribute::Attribute()
     die.roll();
 
     baseScore += die.getFaceValue();
-  }  
+  }
+
+  currentScore = baseScore;
   
 }
 
@@ -21,7 +23,7 @@ string Attribute::getName()const{
 }
 
 int Attribute::getScore()const{
-  return baseScore;
+  return currentScore;
 }
 
 

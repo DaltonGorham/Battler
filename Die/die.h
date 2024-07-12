@@ -1,5 +1,7 @@
 #ifndef Die_H
 #define Die_H
+#include <iostream>
+using namespace std;
 
 
 class Die{
